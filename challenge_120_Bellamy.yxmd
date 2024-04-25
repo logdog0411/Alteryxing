@@ -1,0 +1,1444 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.2">
+  <Nodes>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="126" width="672" height="60" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Given the provided dataset, determine the most popular names for Males and Females for each available year.  The column "Field_1" contains three concatenated values: the name, the associated gender (Male or Female) and the number of occurrences that the name appeared in birth records.   The column "FileName" contains the name of the file in which the record is found; the data was read in from a zip file that contained text files for each year (1880-2017) of records. ]]></Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="324" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+          <BG_Image>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</BG_Image>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="450" y="66" width="300" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Weekly Challenge #120</Text>
+          <Font name="Microsoft Sans Serif" size="16.2" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="62">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1086" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\albert.bellamy\AppData\Local\Temp\Engine_28300_5513cbe1718f4d68bb1d616a53e8a8f3_\Engine_37800_0e342b51f00941f4b9aca9b2eb59c9f9_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="66">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">names.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>names.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: " type="V_String" />
+            <Field name="FileName" size="254" source="Formula: &quot;na&quot;+[FileName]" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="67">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="978" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="138" />
+          <Fields>
+            <Field name="Year" />
+            <Field name="Female Names" />
+            <Field name="Frequency of Female Names" />
+            <Field name="Male Names" />
+            <Field name=" Frequency of Male Names" />
+          </Fields>
+          <Data>
+            <r>
+              <c>1880</c>
+              <c>Mary</c>
+              <c>7065</c>
+              <c>John</c>
+              <c>9655</c>
+            </r>
+            <r>
+              <c>1881</c>
+              <c>Mary</c>
+              <c>6919</c>
+              <c>John</c>
+              <c>8769</c>
+            </r>
+            <r>
+              <c>1882</c>
+              <c>Mary</c>
+              <c>8148</c>
+              <c>John</c>
+              <c>9557</c>
+            </r>
+            <r>
+              <c>1883</c>
+              <c>Mary</c>
+              <c>8012</c>
+              <c>John</c>
+              <c>8894</c>
+            </r>
+            <r>
+              <c>1884</c>
+              <c>Mary</c>
+              <c>9217</c>
+              <c>John</c>
+              <c>9388</c>
+            </r>
+            <r>
+              <c>1885</c>
+              <c>Mary</c>
+              <c>9128</c>
+              <c>John</c>
+              <c>8756</c>
+            </r>
+            <r>
+              <c>1886</c>
+              <c>Mary</c>
+              <c>9889</c>
+              <c>John</c>
+              <c>9026</c>
+            </r>
+            <r>
+              <c>1887</c>
+              <c>Mary</c>
+              <c>9888</c>
+              <c>John</c>
+              <c>8110</c>
+            </r>
+            <r>
+              <c>1888</c>
+              <c>Mary</c>
+              <c>11754</c>
+              <c>John</c>
+              <c>9247</c>
+            </r>
+            <r>
+              <c>1889</c>
+              <c>Mary</c>
+              <c>11648</c>
+              <c>John</c>
+              <c>8548</c>
+            </r>
+            <r>
+              <c>1890</c>
+              <c>Mary</c>
+              <c>12078</c>
+              <c>John</c>
+              <c>8502</c>
+            </r>
+            <r>
+              <c>1891</c>
+              <c>Mary</c>
+              <c>11703</c>
+              <c>John</c>
+              <c>7680</c>
+            </r>
+            <r>
+              <c>1892</c>
+              <c>Mary</c>
+              <c>13172</c>
+              <c>John</c>
+              <c>9039</c>
+            </r>
+            <r>
+              <c>1893</c>
+              <c>Mary</c>
+              <c>12784</c>
+              <c>John</c>
+              <c>8049</c>
+            </r>
+            <r>
+              <c>1894</c>
+              <c>Mary</c>
+              <c>13151</c>
+              <c>John</c>
+              <c>8238</c>
+            </r>
+            <r>
+              <c>1895</c>
+              <c>Mary</c>
+              <c>13446</c>
+              <c>John</c>
+              <c>8320</c>
+            </r>
+            <r>
+              <c>1896</c>
+              <c>Mary</c>
+              <c>13811</c>
+              <c>John</c>
+              <c>8138</c>
+            </r>
+            <r>
+              <c>1897</c>
+              <c>Mary</c>
+              <c>13413</c>
+              <c>John</c>
+              <c>7550</c>
+            </r>
+            <r>
+              <c>1898</c>
+              <c>Mary</c>
+              <c>14406</c>
+              <c>John</c>
+              <c>8159</c>
+            </r>
+            <r>
+              <c>1899</c>
+              <c>Mary</c>
+              <c>13172</c>
+              <c>John</c>
+              <c>6990</c>
+            </r>
+            <r>
+              <c>1900</c>
+              <c>Mary</c>
+              <c>16706</c>
+              <c>John</c>
+              <c>9829</c>
+            </r>
+            <r>
+              <c>1901</c>
+              <c>Mary</c>
+              <c>13136</c>
+              <c>John</c>
+              <c>6900</c>
+            </r>
+            <r>
+              <c>1902</c>
+              <c>Mary</c>
+              <c>14486</c>
+              <c>John</c>
+              <c>7907</c>
+            </r>
+            <r>
+              <c>1903</c>
+              <c>Mary</c>
+              <c>14275</c>
+              <c>John</c>
+              <c>7608</c>
+            </r>
+            <r>
+              <c>1904</c>
+              <c>Mary</c>
+              <c>14961</c>
+              <c>John</c>
+              <c>8108</c>
+            </r>
+            <r>
+              <c>1905</c>
+              <c>Mary</c>
+              <c>16067</c>
+              <c>John</c>
+              <c>8060</c>
+            </r>
+            <r>
+              <c>1906</c>
+              <c>Mary</c>
+              <c>16370</c>
+              <c>John</c>
+              <c>8265</c>
+            </r>
+            <r>
+              <c>1907</c>
+              <c>Mary</c>
+              <c>17580</c>
+              <c>John</c>
+              <c>8983</c>
+            </r>
+            <r>
+              <c>1908</c>
+              <c>Mary</c>
+              <c>18665</c>
+              <c>John</c>
+              <c>9342</c>
+            </r>
+            <r>
+              <c>1909</c>
+              <c>Mary</c>
+              <c>19259</c>
+              <c>John</c>
+              <c>9591</c>
+            </r>
+            <r>
+              <c>1910</c>
+              <c>Mary</c>
+              <c>22848</c>
+              <c>John</c>
+              <c>11450</c>
+            </r>
+            <r>
+              <c>1911</c>
+              <c>Mary</c>
+              <c>24390</c>
+              <c>John</c>
+              <c>13446</c>
+            </r>
+            <r>
+              <c>1912</c>
+              <c>Mary</c>
+              <c>32304</c>
+              <c>John</c>
+              <c>24587</c>
+            </r>
+            <r>
+              <c>1913</c>
+              <c>Mary</c>
+              <c>36642</c>
+              <c>John</c>
+              <c>29329</c>
+            </r>
+            <r>
+              <c>1914</c>
+              <c>Mary</c>
+              <c>45345</c>
+              <c>John</c>
+              <c>37948</c>
+            </r>
+            <r>
+              <c>1915</c>
+              <c>Mary</c>
+              <c>58187</c>
+              <c>John</c>
+              <c>47577</c>
+            </r>
+            <r>
+              <c>1916</c>
+              <c>Mary</c>
+              <c>61438</c>
+              <c>John</c>
+              <c>50045</c>
+            </r>
+            <r>
+              <c>1917</c>
+              <c>Mary</c>
+              <c>64281</c>
+              <c>John</c>
+              <c>51853</c>
+            </r>
+            <r>
+              <c>1918</c>
+              <c>Mary</c>
+              <c>67366</c>
+              <c>John</c>
+              <c>56559</c>
+            </r>
+            <r>
+              <c>1919</c>
+              <c>Mary</c>
+              <c>65841</c>
+              <c>John</c>
+              <c>53529</c>
+            </r>
+            <r>
+              <c>1920</c>
+              <c>Mary</c>
+              <c>70980</c>
+              <c>John</c>
+              <c>56913</c>
+            </r>
+            <r>
+              <c>1921</c>
+              <c>Mary</c>
+              <c>73982</c>
+              <c>John</c>
+              <c>58217</c>
+            </r>
+            <r>
+              <c>1922</c>
+              <c>Mary</c>
+              <c>72175</c>
+              <c>John</c>
+              <c>57276</c>
+            </r>
+            <r>
+              <c>1923</c>
+              <c>Mary</c>
+              <c>71635</c>
+              <c>John</c>
+              <c>57472</c>
+            </r>
+            <r>
+              <c>1924</c>
+              <c>Mary</c>
+              <c>73532</c>
+              <c>Robert</c>
+              <c>60798</c>
+            </r>
+            <r>
+              <c>1925</c>
+              <c>Mary</c>
+              <c>70597</c>
+              <c>Robert</c>
+              <c>60896</c>
+            </r>
+            <r>
+              <c>1926</c>
+              <c>Mary</c>
+              <c>67829</c>
+              <c>Robert</c>
+              <c>61131</c>
+            </r>
+            <r>
+              <c>1927</c>
+              <c>Mary</c>
+              <c>70637</c>
+              <c>Robert</c>
+              <c>61669</c>
+            </r>
+            <r>
+              <c>1928</c>
+              <c>Mary</c>
+              <c>66869</c>
+              <c>Robert</c>
+              <c>60696</c>
+            </r>
+            <r>
+              <c>1929</c>
+              <c>Mary</c>
+              <c>63510</c>
+              <c>Robert</c>
+              <c>59796</c>
+            </r>
+            <r>
+              <c>1930</c>
+              <c>Mary</c>
+              <c>64146</c>
+              <c>Robert</c>
+              <c>62147</c>
+            </r>
+            <r>
+              <c>1931</c>
+              <c>Mary</c>
+              <c>60296</c>
+              <c>Robert</c>
+              <c>60513</c>
+            </r>
+            <r>
+              <c>1932</c>
+              <c>Mary</c>
+              <c>59872</c>
+              <c>Robert</c>
+              <c>59262</c>
+            </r>
+            <r>
+              <c>1933</c>
+              <c>Mary</c>
+              <c>55507</c>
+              <c>Robert</c>
+              <c>54212</c>
+            </r>
+            <r>
+              <c>1934</c>
+              <c>Mary</c>
+              <c>56924</c>
+              <c>Robert</c>
+              <c>55828</c>
+            </r>
+            <r>
+              <c>1935</c>
+              <c>Mary</c>
+              <c>55065</c>
+              <c>Robert</c>
+              <c>56524</c>
+            </r>
+            <r>
+              <c>1936</c>
+              <c>Mary</c>
+              <c>54373</c>
+              <c>Robert</c>
+              <c>58491</c>
+            </r>
+            <r>
+              <c>1937</c>
+              <c>Mary</c>
+              <c>55642</c>
+              <c>Robert</c>
+              <c>61829</c>
+            </r>
+            <r>
+              <c>1938</c>
+              <c>Mary</c>
+              <c>56214</c>
+              <c>Robert</c>
+              <c>62265</c>
+            </r>
+            <r>
+              <c>1939</c>
+              <c>Mary</c>
+              <c>54903</c>
+              <c>Robert</c>
+              <c>59645</c>
+            </r>
+            <r>
+              <c>1940</c>
+              <c>Mary</c>
+              <c>56201</c>
+              <c>James</c>
+              <c>62471</c>
+            </r>
+            <r>
+              <c>1941</c>
+              <c>Mary</c>
+              <c>58040</c>
+              <c>James</c>
+              <c>66731</c>
+            </r>
+            <r>
+              <c>1942</c>
+              <c>Mary</c>
+              <c>63249</c>
+              <c>James</c>
+              <c>77173</c>
+            </r>
+            <r>
+              <c>1943</c>
+              <c>Mary</c>
+              <c>66169</c>
+              <c>James</c>
+              <c>80258</c>
+            </r>
+            <r>
+              <c>1944</c>
+              <c>Mary</c>
+              <c>62466</c>
+              <c>James</c>
+              <c>76947</c>
+            </r>
+            <r>
+              <c>1945</c>
+              <c>Mary</c>
+              <c>59284</c>
+              <c>James</c>
+              <c>74450</c>
+            </r>
+            <r>
+              <c>1946</c>
+              <c>Mary</c>
+              <c>67468</c>
+              <c>James</c>
+              <c>87431</c>
+            </r>
+            <r>
+              <c>1947</c>
+              <c>Linda</c>
+              <c>99686</c>
+              <c>James</c>
+              <c>94756</c>
+            </r>
+            <r>
+              <c>1948</c>
+              <c>Linda</c>
+              <c>96209</c>
+              <c>James</c>
+              <c>88588</c>
+            </r>
+            <r>
+              <c>1949</c>
+              <c>Linda</c>
+              <c>91016</c>
+              <c>James</c>
+              <c>86855</c>
+            </r>
+            <r>
+              <c>1950</c>
+              <c>Linda</c>
+              <c>80432</c>
+              <c>James</c>
+              <c>86239</c>
+            </r>
+            <r>
+              <c>1951</c>
+              <c>Linda</c>
+              <c>73972</c>
+              <c>James</c>
+              <c>87272</c>
+            </r>
+            <r>
+              <c>1952</c>
+              <c>Linda</c>
+              <c>67088</c>
+              <c>James</c>
+              <c>87107</c>
+            </r>
+            <r>
+              <c>1953</c>
+              <c>Mary</c>
+              <c>64372</c>
+              <c>Robert</c>
+              <c>86195</c>
+            </r>
+            <r>
+              <c>1954</c>
+              <c>Mary</c>
+              <c>68005</c>
+              <c>Michael</c>
+              <c>88514</c>
+            </r>
+            <r>
+              <c>1955</c>
+              <c>Mary</c>
+              <c>63162</c>
+              <c>Michael</c>
+              <c>88335</c>
+            </r>
+            <r>
+              <c>1956</c>
+              <c>Mary</c>
+              <c>61750</c>
+              <c>Michael</c>
+              <c>90620</c>
+            </r>
+            <r>
+              <c>1957</c>
+              <c>Mary</c>
+              <c>61092</c>
+              <c>Michael</c>
+              <c>92695</c>
+            </r>
+            <r>
+              <c>1958</c>
+              <c>Mary</c>
+              <c>55853</c>
+              <c>Michael</c>
+              <c>90520</c>
+            </r>
+            <r>
+              <c>1959</c>
+              <c>Mary</c>
+              <c>54477</c>
+              <c>Michael</c>
+              <c>85255</c>
+            </r>
+            <r>
+              <c>1960</c>
+              <c>Mary</c>
+              <c>51474</c>
+              <c>David</c>
+              <c>85928</c>
+            </r>
+            <r>
+              <c>1961</c>
+              <c>Mary</c>
+              <c>47676</c>
+              <c>Michael</c>
+              <c>86922</c>
+            </r>
+            <r>
+              <c>1962</c>
+              <c>Lisa</c>
+              <c>46080</c>
+              <c>Michael</c>
+              <c>85037</c>
+            </r>
+            <r>
+              <c>1963</c>
+              <c>Lisa</c>
+              <c>56037</c>
+              <c>Michael</c>
+              <c>83789</c>
+            </r>
+            <r>
+              <c>1964</c>
+              <c>Lisa</c>
+              <c>54276</c>
+              <c>Michael</c>
+              <c>82653</c>
+            </r>
+            <r>
+              <c>1965</c>
+              <c>Lisa</c>
+              <c>60266</c>
+              <c>Michael</c>
+              <c>81019</c>
+            </r>
+            <r>
+              <c>1966</c>
+              <c>Lisa</c>
+              <c>56913</c>
+              <c>Michael</c>
+              <c>79992</c>
+            </r>
+            <r>
+              <c>1967</c>
+              <c>Lisa</c>
+              <c>52435</c>
+              <c>Michael</c>
+              <c>82445</c>
+            </r>
+            <r>
+              <c>1968</c>
+              <c>Lisa</c>
+              <c>49532</c>
+              <c>Michael</c>
+              <c>82006</c>
+            </r>
+            <r>
+              <c>1969</c>
+              <c>Lisa</c>
+              <c>45029</c>
+              <c>Michael</c>
+              <c>85208</c>
+            </r>
+            <r>
+              <c>1970</c>
+              <c>Jennifer</c>
+              <c>46157</c>
+              <c>Michael</c>
+              <c>85303</c>
+            </r>
+            <r>
+              <c>1971</c>
+              <c>Jennifer</c>
+              <c>56784</c>
+              <c>Michael</c>
+              <c>77591</c>
+            </r>
+            <r>
+              <c>1972</c>
+              <c>Jennifer</c>
+              <c>63604</c>
+              <c>Michael</c>
+              <c>71405</c>
+            </r>
+            <r>
+              <c>1973</c>
+              <c>Jennifer</c>
+              <c>62451</c>
+              <c>Michael</c>
+              <c>67846</c>
+            </r>
+            <r>
+              <c>1974</c>
+              <c>Jennifer</c>
+              <c>63112</c>
+              <c>Michael</c>
+              <c>67583</c>
+            </r>
+            <r>
+              <c>1975</c>
+              <c>Jennifer</c>
+              <c>58185</c>
+              <c>Michael</c>
+              <c>68454</c>
+            </r>
+            <r>
+              <c>1976</c>
+              <c>Jennifer</c>
+              <c>59474</c>
+              <c>Michael</c>
+              <c>66964</c>
+            </r>
+            <r>
+              <c>1977</c>
+              <c>Jennifer</c>
+              <c>58964</c>
+              <c>Michael</c>
+              <c>67610</c>
+            </r>
+            <r>
+              <c>1978</c>
+              <c>Jennifer</c>
+              <c>56323</c>
+              <c>Michael</c>
+              <c>67158</c>
+            </r>
+            <r>
+              <c>1979</c>
+              <c>Jennifer</c>
+              <c>56718</c>
+              <c>Michael</c>
+              <c>67733</c>
+            </r>
+            <r>
+              <c>1980</c>
+              <c>Jennifer</c>
+              <c>58376</c>
+              <c>Michael</c>
+              <c>68693</c>
+            </r>
+            <r>
+              <c>1981</c>
+              <c>Jennifer</c>
+              <c>57049</c>
+              <c>Michael</c>
+              <c>68765</c>
+            </r>
+            <r>
+              <c>1982</c>
+              <c>Jennifer</c>
+              <c>57115</c>
+              <c>Michael</c>
+              <c>68228</c>
+            </r>
+            <r>
+              <c>1983</c>
+              <c>Jennifer</c>
+              <c>54342</c>
+              <c>Michael</c>
+              <c>67995</c>
+            </r>
+            <r>
+              <c>1984</c>
+              <c>Jennifer</c>
+              <c>50561</c>
+              <c>Michael</c>
+              <c>67736</c>
+            </r>
+            <r>
+              <c>1985</c>
+              <c>Jessica</c>
+              <c>48346</c>
+              <c>Michael</c>
+              <c>64906</c>
+            </r>
+            <r>
+              <c>1986</c>
+              <c>Jessica</c>
+              <c>52674</c>
+              <c>Michael</c>
+              <c>64205</c>
+            </r>
+            <r>
+              <c>1987</c>
+              <c>Jessica</c>
+              <c>55991</c>
+              <c>Michael</c>
+              <c>63647</c>
+            </r>
+            <r>
+              <c>1988</c>
+              <c>Jessica</c>
+              <c>51538</c>
+              <c>Michael</c>
+              <c>64133</c>
+            </r>
+            <r>
+              <c>1989</c>
+              <c>Jessica</c>
+              <c>47885</c>
+              <c>Michael</c>
+              <c>65382</c>
+            </r>
+            <r>
+              <c>1990</c>
+              <c>Jessica</c>
+              <c>46475</c>
+              <c>Michael</c>
+              <c>65282</c>
+            </r>
+            <r>
+              <c>1991</c>
+              <c>Ashley</c>
+              <c>43479</c>
+              <c>Michael</c>
+              <c>60785</c>
+            </r>
+            <r>
+              <c>1992</c>
+              <c>Ashley</c>
+              <c>38452</c>
+              <c>Michael</c>
+              <c>54386</c>
+            </r>
+            <r>
+              <c>1993</c>
+              <c>Jessica</c>
+              <c>34988</c>
+              <c>Michael</c>
+              <c>49550</c>
+            </r>
+            <r>
+              <c>1994</c>
+              <c>Jessica</c>
+              <c>32117</c>
+              <c>Michael</c>
+              <c>44470</c>
+            </r>
+            <r>
+              <c>1995</c>
+              <c>Jessica</c>
+              <c>27935</c>
+              <c>Michael</c>
+              <c>41402</c>
+            </r>
+            <r>
+              <c>1996</c>
+              <c>Emily</c>
+              <c>25151</c>
+              <c>Michael</c>
+              <c>38365</c>
+            </r>
+            <r>
+              <c>1997</c>
+              <c>Emily</c>
+              <c>25732</c>
+              <c>Michael</c>
+              <c>37548</c>
+            </r>
+            <r>
+              <c>1998</c>
+              <c>Emily</c>
+              <c>26181</c>
+              <c>Michael</c>
+              <c>36614</c>
+            </r>
+            <r>
+              <c>1999</c>
+              <c>Emily</c>
+              <c>26539</c>
+              <c>Jacob</c>
+              <c>35361</c>
+            </r>
+            <r>
+              <c>2000</c>
+              <c>Emily</c>
+              <c>25953</c>
+              <c>Jacob</c>
+              <c>34471</c>
+            </r>
+            <r>
+              <c>2001</c>
+              <c>Emily</c>
+              <c>25055</c>
+              <c>Jacob</c>
+              <c>32541</c>
+            </r>
+            <r>
+              <c>2002</c>
+              <c>Emily</c>
+              <c>24463</c>
+              <c>Jacob</c>
+              <c>30568</c>
+            </r>
+            <r>
+              <c>2003</c>
+              <c>Emily</c>
+              <c>25688</c>
+              <c>Jacob</c>
+              <c>29630</c>
+            </r>
+            <r>
+              <c>2004</c>
+              <c>Emily</c>
+              <c>25033</c>
+              <c>Jacob</c>
+              <c>27879</c>
+            </r>
+            <r>
+              <c>2005</c>
+              <c>Emily</c>
+              <c>23937</c>
+              <c>Jacob</c>
+              <c>25830</c>
+            </r>
+            <r>
+              <c>2006</c>
+              <c>Emily</c>
+              <c>21400</c>
+              <c>Jacob</c>
+              <c>24841</c>
+            </r>
+            <r>
+              <c>2007</c>
+              <c>Emily</c>
+              <c>19355</c>
+              <c>Jacob</c>
+              <c>24273</c>
+            </r>
+            <r>
+              <c>2008</c>
+              <c>Emma</c>
+              <c>18809</c>
+              <c>Jacob</c>
+              <c>22591</c>
+            </r>
+            <r>
+              <c>2009</c>
+              <c>Isabella</c>
+              <c>22298</c>
+              <c>Jacob</c>
+              <c>21169</c>
+            </r>
+            <r>
+              <c>2010</c>
+              <c>Isabella</c>
+              <c>22905</c>
+              <c>Jacob</c>
+              <c>22117</c>
+            </r>
+            <r>
+              <c>2011</c>
+              <c>Sophia</c>
+              <c>21837</c>
+              <c>Jacob</c>
+              <c>20365</c>
+            </r>
+            <r>
+              <c>2012</c>
+              <c>Sophia</c>
+              <c>22304</c>
+              <c>Jacob</c>
+              <c>19069</c>
+            </r>
+            <r>
+              <c>2013</c>
+              <c>Sophia</c>
+              <c>21213</c>
+              <c>Noah</c>
+              <c>18241</c>
+            </r>
+            <r>
+              <c>2014</c>
+              <c>Emma</c>
+              <c>20924</c>
+              <c>Noah</c>
+              <c>19286</c>
+            </r>
+            <r>
+              <c>2015</c>
+              <c>Emma</c>
+              <c>20435</c>
+              <c>Noah</c>
+              <c>19613</c>
+            </r>
+            <r>
+              <c>2016</c>
+              <c>Emma</c>
+              <c>19471</c>
+              <c>Noah</c>
+              <c>19082</c>
+            </r>
+            <r>
+              <c>2017</c>
+              <c>Emma</c>
+              <c>19738</c>
+              <c>Liam</c>
+              <c>18728</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="68">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="174" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Field_1</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>
+          </RootName>
+          <Delimeters value="," />
+          <NumFields value="3" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="69">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="270" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>FileName</Field>
+          <RegExExpression value=".+(\d{4}).+" />
+          <CaseInsensitve value="True" />
+          <Method>ParseComplex</Method>
+          <Replace expression="">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>FileName</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="Year" type="V_WString" size="254" />
+          </ParseComplex>
+          <Match>
+            <Field>Field_1_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="71">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="438" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Year" action="GroupBy" rename="Year" />
+            <SummarizeField field="1" action="GroupBy" rename="Name" />
+            <SummarizeField field="2" action="GroupBy" rename="Gender" />
+            <SummarizeField field="3" action="Sum" rename="Total" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="72">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="354" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="3" selected="True" type="Int64" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="73">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="534" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="Total" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Total - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="74">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+        <Position x="654" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>First</Mode>
+          <N>1</N>
+          <GroupFields orderChanged="False">
+            <Field name="Gender" />
+            <Field name="Year" />
+          </GroupFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>First 1 rows</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+    </Node>
+    <Node ToolID="76">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="762" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Gender</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2024-04-16 18:35:45</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>M</Operand>
+              <StartDate>2024-04-16 18:35:45</StartDate>
+              <EndDate>2024-04-16 18:35:45</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Gender] = "M"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="78">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="858" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Name" selected="True" rename="Female Names" />
+            <SelectField field="Gender" selected="False" />
+            <SelectField field="Total" selected="True" rename="Frequency of Female Names" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="79">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="858" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Name" selected="True" rename="Male Names" />
+            <SelectField field="Gender" selected="False" />
+            <SelectField field="Total" selected="True" rename="Frequency of Male Names" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="80">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="954" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="True">
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Year" selected="False" rename="Right_Year" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="66" Connection="Output" />
+      <Destination ToolID="68" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="67" Connection="Output" />
+      <Destination ToolID="62" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="68" Connection="Output" />
+      <Destination ToolID="69" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="69" Connection="Output" />
+      <Destination ToolID="72" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="71" Connection="Output" />
+      <Destination ToolID="73" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="72" Connection="Output" />
+      <Destination ToolID="71" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="73" Connection="Output" />
+      <Destination ToolID="74" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="74" Connection="Output" />
+      <Destination ToolID="76" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="76" Connection="True" />
+      <Destination ToolID="79" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="76" Connection="False" />
+      <Destination ToolID="78" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="78" Connection="Output" />
+      <Destination ToolID="80" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="79" Connection="Output" />
+      <Destination ToolID="80" Connection="Left" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>challenge_120_Bellamy</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="5e6ed939-254b-49f0-a8ef-9da77b1287bf" />
+      <Telemetry>
+        <PreviousWorkflowId value="a414da13-bad6-4ce4-8053-feb21bed3803" />
+        <OriginWorkflowId value="ed1e18ab-ad08-43d1-aaff-18ce3096a8ed" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
